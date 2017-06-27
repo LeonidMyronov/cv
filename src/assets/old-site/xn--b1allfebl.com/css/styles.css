@@ -1,0 +1,258 @@
+/* style for page size less than 768px*/
+/*
+@media (min-width: 576px) {
+    body{
+        background: lightgray;
+        color: indigo;
+        font-size: 18px;
+        
+    }
+    
+       
+}
+*/
+
+/* style for xs page size, 430px*/
+@media (min-width: 430px) {
+    body{
+        
+    }
+    
+}
+
+/* style for large page size, 992px*/
+
+@media (min-width: 1200px) {
+    body{
+        
+        //background: #d8ecf3;
+        background: white;
+        color: black;
+        font-size: 14x; /*16*/
+    }
+    
+    
+}
+
+/* make blue line border, 40 px height and text centered */
+
+.my_border {
+    border: solid 1px blue;
+
+    text-align: center;
+}
+
+.container {
+    //border: solid 1px red;
+}
+
+
+/* style for column hovering */
+//.my_border:hover{
+//    font-size: 26px;
+//    background: #269abc;
+//    color: whitesmoke;
+//}
+
+.verticalLine {
+    border-left: thick solid indigo;
+}
+
+#circle {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+    background: gray;
+}
+
+.profexperience_table td{
+  font-size: 14px;      
+    
+}
+
+.table1 td {
+  font-size: 14px;  
+  vertical-align: top;
+  //border-top: 1px solid #ddd;
+}
+
+.table_year{
+    width: 60px;
+}
+
+.table_image{
+    width: 90px;
+}
+
+.table_mark{
+    width: 30px;
+}
+
+.table_description{
+    width: 65%;
+}
+.marker{
+    vertical-align: top;
+}
+
+.bottom_line{
+    
+    border-bottom: 1px solid #ddd;
+}
+
+.top_line{
+    
+    /border-top: 1px solid #ddd;
+}
+    
+
+.right_align{
+    text-align: right;    
+    padding-right: 10px;
+    
+}
+
+.width30{
+    width: 33%;
+    text-align: center;
+    //padding: 5px 10px 5px 35px;
+}
+
+.h40{
+    height: 40px;
+}
+
+.h30{
+    height: 30px;
+}
+
+.html_skill{
+    padding: 0px 7px 0px 7px;
+    text-align: center;
+}
+
+
+.univer_name{
+    font-size: 16px; /*20*/
+    /color: #286090;
+    /color: #1144ed;
+    color: rgb(49,150,210);
+    /color: #00ace6;    
+}
+
+.univer_course{
+  font-size: 14px;  /*16*/
+}
+
+.univer_course a{
+    color: black;
+}
+
+.section_img{
+    width: 80px;
+}
+
+.section{
+    padding-left: 20px;
+    font-family: fantasy;
+    font-size: 24px;
+    padding-bottom: 0px;
+}
+
+.div_section{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.div_section1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+
+.profile{
+    padding-left: 0px;
+}
+
+.profile th{
+    width: 150px;
+    font-size: 16px; /*18*/
+    text-align: right;
+    padding-right: 15px;
+}
+
+.profile td{
+    width: 200px;
+    font-size: 16px; /*18*/
+}
+
+.profile td a{
+    color: black;
+}
+
+.fa-phone, .fa-envelope, .fa-skype, .fa-star, .fa-star-o {
+    color: #286090;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+}
+
+.fa-caret-right{
+    /color: #286090;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 2em;
+    /width: 1.5em;
+    
+}
+.pers_skills_table td{
+    padding: 7px;
+}
+
+.pers_skills_img{
+    width: 60px
+}
+
+.cert_table td{
+    padding-right: 10px;
+}
+
+.row-footer {
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: #AfAfAf;
+}
+
+.interests_table td{
+    padding-left: 10px;
+    //width: 100px;
+}
+
+.interests_table_img{
+    //padding-left: 100px;
+    width: 35px;
+}
+
+.lang_table{
+    /position: absolute;
+    /right: 0px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.lang_table td{
+    width: 90px;
+    
+}
+
+.li_table td{
+    //position: relative;
+    //margin-right: 20px;
+    padding-top:15px;
+    padding-left: 15px
+}
