@@ -1,3 +1,5 @@
-<p>
-  prof-experience works!
-</p>
+<app-section-title [section]="section"></app-section-title>
+<div class="content-wrapper">
+
+    <app-time-line-cronology *ngFor="let event of profExp" [event]="event"></app-time-line-cronology>
+</div>

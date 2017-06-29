@@ -1,0 +1,32 @@
+<div class="event clearfix">
+
+  <div *ngIf="event.periods.start" class="periods pull-left">
+
+    {{event.periods.start | date:'MM/y' | lowercase}} - {{event.periods.end | date:'MM/y'}}
+    <span class="spent-time">
+        <span *ngIf="duration.years > 0">{{duration.years}} year(s) </span>
+        <span *ngIf="duration.months > 0">{{duration.months}} month(s)</span>
+    </span>
+  </div>
+  <div *ngIf="!event.periods.start" class="periods pull-left">
+    {{event.periods.end | date:'y'}}
+  </div>
+  <div class="separator pull-left">
+    <i class="fa fa-caret-right fa-lg"></i>
+  </div>
+  <div class="title pull-left">
+    <span class="item-title">
+      {{event.title}}
+    </span>
+    <span class="item-content">
+      {{event.content}}
+    </span>
+  </div>
+  <div class="image pull-right">
+    <img [src]="event.imgPath">
+  </div>
+
+
+
+</div>
+

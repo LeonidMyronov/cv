@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hobbies.component.css']
 })
 export class HobbiesComponent implements OnInit {
-
+section = {
+      name: 'Hobbies',
+      img: 'assets/img/section_interests.png'
+  }
   constructor() { }
 
   ngOnInit() {

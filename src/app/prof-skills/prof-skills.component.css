@@ -1,0 +1,24 @@
+.content-wrapper{
+    /*display: flex;
+    flex-wrap: wrap;
+    width: 100%;*/
+}
+.skill-item{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.progress{
+    width: 80%;
+    margin: 0;
+}
+
+.skill-name{
+        font-size: 22px;
+    font-family: BebasRegular;
+    letter-spacing: 1px;
+    padding-right: 15px;
+    width: 150px;
+    text-align: right;
+}

@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent implements OnInit {
-
+section = {
+      name: 'Portfolio',
+      icon: 'assets/img/section_portfolio.png'
+  }
   constructor() { }
 
   ngOnInit() {

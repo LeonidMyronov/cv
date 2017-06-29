@@ -11,7 +11,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ProfSkillsComponent } from './prof-skills/prof-skills.component';
 import { PersonalSkillsComponent } from './personal-skills/personal-skills.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
-
+import { SectionTitleComponent } from './shared/section-title/section-title.component';
+import { TimeLineCronologyComponent } from './shared/time-line-cronology/time-line-cronology.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,9 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
     PortfolioComponent,
     ProfSkillsComponent,
     PersonalSkillsComponent,
-    HobbiesComponent
+    HobbiesComponent,
+    SectionTitleComponent,
+    TimeLineCronologyComponent
   ],
   imports: [
     BrowserModule,

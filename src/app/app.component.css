@@ -1,0 +1,57 @@
+@font-face {
+			font-family: "BebasRegular";
+			src: url("../assets/fonts/BebasRegular/BebasRegular.eot");
+			src: url("../assets/fonts/BebasRegular/BebasRegular.eot?#iefix")format("embedded-opentype"),
+			url("../assets/fonts/BebasRegular/BebasRegular.woff") format("woff"),
+			url("../assets/fonts/BebasRegular/BebasRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "BebasBook";
+			src: url("../assets/fonts/BebasBook/BebasBook.eot");
+			src: url("../assets/fonts/BebasBook/BebasBook.eot?#iefix")format("embedded-opentype"),
+			url("../assets/fonts/BebasBook/BebasBook.woff") format("woff"),
+			url("../assets/fonts/BebasBook/BebasBook.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "BebasBold";
+			src: url("../assets/fonts/BebasBold/BebasBold.eot");
+			src: url("../assets/fonts/BebasBold/BebasBold.eot?#iefix")format("embedded-opentype"),
+			url("../assets/fonts/BebasBold/BebasBold.woff") format("woff"),
+			url("../assets/fonts/BebasBold/BebasBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "BebasLight";
+			src: url("../assets/fonts/BebasLight/BebasLight.eot");
+			src: url("../assets/fonts/BebasLight/BebasLight.eot?#iefix")format("embedded-opentype"),
+			url("../assets/fonts/BebasLight/BebasLight.woff") format("woff"),
+			url("../assets/fonts/BebasLight/BebasLight.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "BebasThin";
+			src: url("../assets/fonts/BebasThin/BebasThin.eot");
+			src: url("../assets/fonts/BebasThin/BebasThin.eot?#iefix")format("embedded-opentype"),
+			url("../assets/fonts/BebasThin/BebasThin.woff") format("woff"),
+			url("../assets/fonts/BebasThin/BebasThin.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+.row{
+    margin-top: 40px;
+}
+
+.left-side{
+	border-right: 1px solid #eee;
+}

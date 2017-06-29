@@ -6,10 +6,34 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./personal-skills.component.css']
 })
 export class PersonalSkillsComponent implements OnInit {
-
   constructor() { }
-
+  private section;
+  private skills;
   ngOnInit() {
+    this.section = {
+          name: 'Personal Skills',
+          img: 'assets/img/section_personalskills.png'
+    }
+
+    this.skills = [
+      {
+        name: 'Responsible',
+        imgPath: 'assets/img/scale_95.png'
+      },
+      {
+        name: 'Analytical',
+        imgPath: 'assets/img/scale_90.png'
+      },
+      {
+        name: 'Self-motivated',
+        imgPath: 'assets/img/scale_95.png'
+      },
+      {
+        name: 'Reasonable',
+        imgPath: 'assets/img/scale_90.png'
+      }
+    ]
+
   }
 
 }
