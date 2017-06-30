@@ -49,9 +49,13 @@
 	}
 
 .row{
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
-.left-side{
-	border-right: 1px solid #eee;
+.right-side{
+	border-left: 1px solid #eee;
+}
+
+.footer{
+	background-color: #eee
 }

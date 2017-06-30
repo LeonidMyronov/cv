@@ -1,0 +1,25 @@
+.portfolio-item{
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+
+.portfolio-title{
+    display: flex;   
+    min-width: 200px;
+    justify-content: flex-start;
+    align-self: flex-start;
+    
+}
+a{
+    justify-content: center;
+    align-self: center;
+    font-size: 19px;
+}
+.portfolio-description{
+    font-size: 17px;
+    
+}
+.portfolio-technologies{
+    margin-bottom: 10px;
+}

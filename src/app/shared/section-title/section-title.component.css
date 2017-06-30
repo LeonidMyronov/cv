@@ -1,5 +1,9 @@
 .section-title{
-    margin: 15px 30px;
+    margin: 50px 30px 30px;
+}
+.section-title.Profile{
+    margin: 20px 30px;
+
 }
 .section-title > * {
     display: inline-block;

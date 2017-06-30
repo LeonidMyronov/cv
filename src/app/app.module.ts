@@ -10,9 +10,11 @@ import { EducationComponent } from './education/education.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ProfSkillsComponent } from './prof-skills/prof-skills.component';
 import { PersonalSkillsComponent } from './personal-skills/personal-skills.component';
-import { HobbiesComponent } from './hobbies/hobbies.component';
+import { HobbiesComponent } from './footer/hobbies/hobbies.component';
 import { SectionTitleComponent } from './shared/section-title/section-title.component';
 import { TimeLineCronologyComponent } from './shared/time-line-cronology/time-line-cronology.component';
+import { LanguagesComponent } from './footer/languages/languages.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,9 @@ import { TimeLineCronologyComponent } from './shared/time-line-cronology/time-li
     PersonalSkillsComponent,
     HobbiesComponent,
     SectionTitleComponent,
-    TimeLineCronologyComponent
+    TimeLineCronologyComponent,
+    LanguagesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -16,17 +16,42 @@ export class ProfSkillsComponent implements OnInit {
           img: 'assets/img/section_profskills.png'
       }
     this.skills = [
+      
       {
-        name: 'HTML',
+        name: 'JavaScript',
+        value: '85%'
+      },
+      {
+        name: 'TypeScript',
+        value: '80%'
+      },
+      {
+        name: 'Angular',
         value: '90%'
       },
       {
-        name: 'CSS',
-        value: '50%'
+        name: 'HTML5',
+        value: '90%'
       },
       {
-        name: 'JS',
-        value: '80%'
+        name: 'CSS3',
+        value: '95%'
+      },
+      {
+        name: 'SQL',
+        value: '75%'
+      },
+      {
+        name: 'PHP',
+        value: '70%'
+      },
+      {
+        name: 'C/C++/C#',
+        value: '65%'
+      },
+      {
+        name: 'QA',
+        value: '60%'
       }
     ]
   }

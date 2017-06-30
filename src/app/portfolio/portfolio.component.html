@@ -1,1 +1,18 @@
 <app-section-title [section]="section"></app-section-title>
+<div class="content-wrapper">
+    <div class="portfolio-container">
+        <div *ngFor="let portfolio of portfolios" class="portfolio-item">
+            <div class="portfolio-title">
+                <a [href]="portfolio.url">{{ portfolio.name }}</a>
+            </div>
+            <div class="portfolio-description">
+                <div class="portfolio-technologies">
+                    <strong>Technologies:</strong> {{portfolio.technologies}}
+                </div>
+                <div class="portfolio-participation">
+                    <strong>Participation:</strong> {{portfolio.participation}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
