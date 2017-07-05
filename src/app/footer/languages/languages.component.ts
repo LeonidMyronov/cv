@@ -24,7 +24,7 @@ export class LanguagesComponent implements OnInit {
       },
       {
         name: 'english',
-        level: 'upper-intermediate',
+        level: 'intermediate',
         imgPath: 'assets/img/lang_uk.png'
       },
       {

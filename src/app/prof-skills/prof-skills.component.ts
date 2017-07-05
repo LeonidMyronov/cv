@@ -23,11 +23,11 @@ export class ProfSkillsComponent implements OnInit {
       },
       {
         name: 'TypeScript',
-        value: '80%'
+        value: '65%'
       },
       {
         name: 'Angular',
-        value: '90%'
+        value: '75%'
       },
       {
         name: 'HTML5',
@@ -43,7 +43,11 @@ export class ProfSkillsComponent implements OnInit {
       },
       {
         name: 'PHP',
-        value: '70%'
+        value: '65%'
+      },
+      {
+        name: 'Python',
+        value: '45%'
       },
       {
         name: 'C/C++/C#',
@@ -51,7 +55,7 @@ export class ProfSkillsComponent implements OnInit {
       },
       {
         name: 'QA',
-        value: '60%'
+        value: '50%'
       }
     ]
   }
