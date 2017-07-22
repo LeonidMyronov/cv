@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./prof-experience.component.css']
 })
 export class ProfExperienceComponent implements OnInit {
-  private section;
-  private profExp;
+  public section;
+  public profExp;
   constructor() { }
 
   ngOnInit() {

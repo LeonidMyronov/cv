@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfSkillsComponent implements OnInit {
   constructor() { }
-  private skills;
-  private section;
+  public skills;
+  public section;
 
   ngOnInit() {
     this.section = {
@@ -18,7 +18,7 @@ export class ProfSkillsComponent implements OnInit {
     this.skills = [
       
       {
-        name: 'JavaScript',
+        name: 'EcmaScript(ES6)',
         value: '85%'
       },
       {
@@ -27,14 +27,14 @@ export class ProfSkillsComponent implements OnInit {
       },
       {
         name: 'Angular',
-        value: '75%'
+        value: '80%'
       },
       {
         name: 'HTML5',
         value: '90%'
       },
       {
-        name: 'CSS3',
+        name: 'CSS3/Sass/Scss',
         value: '95%'
       },
       {

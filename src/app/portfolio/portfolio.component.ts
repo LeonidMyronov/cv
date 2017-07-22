@@ -7,22 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
   constructor() { }
-  private section;
-  private portfolios;
+  public section;
+  public portfolios;
   ngOnInit() {
 
     this.portfolios = [
       {
-        name: 'envionsoftware.com',
-        url: 'http://envionsoftware.com',
-        technologies: 'HTML5, CSS3, JS, jQuery, PHP, SQL, MySQL, CMS Wordpress',
-        participation: 'Everything from the scratch'
-      },
-      {
         name: 'mondeca.com',
         url: 'http://abap.envionsoftware.com',
-        technologies: 'Angular 4, TypeScript, Webpack, JS, HTML5, CSS3',
+        technologies: 'Angular, ES6, TypeScript, Webpack, HTML5, CSS3/Scss/Sass, Git',
         participation: 'Debugging, customization and functionality implementing at different components'
+      },
+      {
+        name: 'envionsoftware.com',
+        url: 'http://envionsoftware.com',
+        technologies: 'HTML5, CSS3/Scss/Sass, JS, jQuery, Gulp, PHP, SQL, MySQL, CMS Wordpress, Git',
+        participation: 'Everything from the scratch'
       },
       {
         name: 'gallantra.com',

@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EducationComponent implements OnInit {
   constructor() { }
-  private educations;
-  private section;
+  public educations;
+  public section;
   ngOnInit() {
     this.section = {
           name: 'Education',

@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HobbiesComponent implements OnInit {
   constructor() { }
-  private section;
-  private hobbies;
+  public section;
+  public hobbies;
   
 
   ngOnInit() {

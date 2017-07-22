@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class LanguagesComponent implements OnInit {
 
   constructor() { }
-  private ln;
-  private languages;
+  public ln;
+  public languages;
   ngOnInit() {
       this.ln = {
       url: 'http://ua.linkedin.com/in/leonidmyronov',

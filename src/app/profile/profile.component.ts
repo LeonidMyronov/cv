@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  private profileData;
-  private section = {
+  public profileData;
+  public section = {
       name: 'Profile',
       img: 'assets/img/section_profile.png'
   }
