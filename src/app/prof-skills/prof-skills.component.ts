@@ -16,26 +16,37 @@ export class ProfSkillsComponent implements OnInit {
           img: 'assets/img/section_profskills.png'
       }
     this.skills = [
-      
       {
-        name: 'EcmaScript(ES6)',
-        value: '85%'
+        name: 'Angular 5',
+        value: '95%'
+      },
+      {
+        name: 'ES6/ES5',
+        value: '90%'
       },
       {
         name: 'TypeScript',
-        value: '65%'
+        value: '90%'
       },
       {
-        name: 'Angular',
-        value: '80%'
+        name: 'AngularJS',
+        value: '75%'
+      },
+      {
+        name: 'ReactJS',
+        value: '60%'
       },
       {
         name: 'HTML5',
-        value: '90%'
+        value: '95%'
       },
       {
         name: 'CSS3/Sass/Scss',
         value: '95%'
+      },
+      {
+        name: 'NodeJS',
+        value: '50%'
       },
       {
         name: 'SQL',
@@ -49,15 +60,7 @@ export class ProfSkillsComponent implements OnInit {
         name: 'Python',
         value: '45%'
       },
-      {
-        name: 'C/C++/C#',
-        value: '65%'
-      },
-      {
-        name: 'QA',
-        value: '50%'
-      }
-    ]
+    ];
   }
 
 }

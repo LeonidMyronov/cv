@@ -17,7 +17,7 @@ export class ProfileComponent implements OnInit {
   ngOnInit() {
     this.profileData = {
       name: 'Leonid Myronov',
-      position: 'Front-end Developer',
+      position: 'Middle Frontend Developer',
       imgPath: 'assets/img/leo2.jpg',
       birth: new Date('16 jan 1976'),
       phone: '+380 97 479 61 65',

@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./education.component.css']
 })
 export class EducationComponent implements OnInit {
-  constructor() { }
   public educations;
   public section;
+  constructor() { }
   ngOnInit() {
     this.section = {
           name: 'Education',
@@ -20,7 +20,7 @@ export class EducationComponent implements OnInit {
           end: new Date('01 jun 2017'),
         },
         title: 'Udemy',
-        content: 'Angular 4. Full Stack Web Development',
+        content: 'Angular 5. Full Stack Web Development',
         imgPath: 'https://www.udemy.com/staticx/udemy/images/v5/logo-green.svg'
       },
       {

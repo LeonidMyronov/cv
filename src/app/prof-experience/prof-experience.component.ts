@@ -14,12 +14,21 @@ export class ProfExperienceComponent implements OnInit {
     this.section = {
         name: 'Professional Experience',
         img: 'assets/img/section_profexperiencepng.png'
-    }
+    };
     this.profExp = [
       {
         periods: {
-          start: new Date('01 aug 2016'),
+          start: new Date('20 aug 2017'),
           end: new Date()
+        },
+        title: 'Plastic Jam',
+        content: 'Middle Front-end Developer',
+        imgPath: 'assets/img/company_pj.png'
+      },
+      {
+        periods: {
+          start: new Date('01 aug 2016'),
+          end: new Date('10 sep 2017')
         },
         title: 'Envion Software',
         content: 'Front-end Developer',

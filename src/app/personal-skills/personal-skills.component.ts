@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./personal-skills.component.css']
 })
 export class PersonalSkillsComponent implements OnInit {
-  constructor() { }
   public section;
   public skills;
+  constructor() { }
   ngOnInit() {
     this.section = {
           name: 'Personal Skills',

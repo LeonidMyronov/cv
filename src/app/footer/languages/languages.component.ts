@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./languages.component.css']
 })
 export class LanguagesComponent implements OnInit {
-
-  constructor() { }
   public ln;
   public languages;
+
+  constructor() { }
   ngOnInit() {
       this.ln = {
       url: 'http://ua.linkedin.com/in/leonidmyronov',
@@ -24,7 +24,7 @@ export class LanguagesComponent implements OnInit {
       },
       {
         name: 'english',
-        level: 'intermediate',
+        level: 'upper intermediate',
         imgPath: 'assets/img/lang_uk.png'
       },
       {

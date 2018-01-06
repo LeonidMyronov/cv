@@ -6,16 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent implements OnInit {
-  constructor() { }
   public section;
   public portfolios;
+  constructor() { }
   ngOnInit() {
 
     this.portfolios = [
       {
+        name: '99papers.com',
+        url: 'http://my.99papers.com',
+        technologies: 'Angular 4/5, AngularJS, Typescript, ES6/ES5, HTML5, CSS3/Sass, Bootstrap, Angular Material, SQL, MySQL, Git, Jira',
+        participation: `Developing application from the scratch. 
+        Migration an application from AngularJS 1.x to newer Angular 5. 
+        Saving backlogs, adding new functionality.
+        Active participation in researches, discussions and decisions on software architecture and internal coding, 
+        architectural, process and standards.`
+      },
+      {
         name: 'mondeca.com',
         url: 'http://abap.envionsoftware.com',
-        technologies: 'Angular, ES6, TypeScript, Webpack, HTML5, CSS3/Scss/Sass, Git',
+        technologies: 'Angular 4, ES6, TypeScript, Webpack, HTML5, CSS3/Scss/Sass, Git',
         participation: 'Debugging, customization and functionality implementing at different components'
       },
       {
