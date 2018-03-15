@@ -17,6 +17,14 @@ export class EducationComponent implements OnInit {
     this.educations = [
       {
         periods: {
+          end: new Date('01 feb 2018'),
+        },
+        title: 'Udemy',
+        content: 'Angular (Full App) with Angular Material, Angularfire and NgRx',
+        imgPath: 'https://www.udemy.com/staticx/udemy/images/v5/logo-green.svg'
+      },
+      {
+        periods: {
           end: new Date('01 jun 2017'),
         },
         title: 'Udemy',
