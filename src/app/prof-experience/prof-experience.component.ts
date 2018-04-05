@@ -18,6 +18,15 @@ export class ProfExperienceComponent implements OnInit {
     this.profExp = [
       {
         periods: {
+          start: new Date('03 mar 2018'),
+          end: new Date()
+        },
+        title: 'Unisoft Corporation',
+        content: 'Lead Project Frontend Developer',
+        imgPath: 'assets/img/company_unisoft.png'
+      },
+      {
+        periods: {
           start: new Date('20 aug 2017'),
           end: new Date()
         },
