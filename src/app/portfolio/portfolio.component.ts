@@ -13,6 +13,13 @@ export class PortfolioComponent implements OnInit {
 
     this.portfolios = [
       {
+        name: 'EAF',
+        url: '',
+        technologies: 'Angular 6/5, Typescript, NgRx, RxJs, ES6/ES5, HTML5, CSS3/Sass, WebSockets, Angular Material, MySQL, Git',
+        participation: `Developing application from the scratch. Building software architecture, making decisions on key app points,
+        Active participation in researches, process and standards. Code reviewing.`
+      },
+      {
         name: '99papers.com',
         url: 'http://my.99papers.com',
         technologies: 'Angular 4/5, AngularJS, Typescript, ES6/ES5, HTML5, CSS3/Sass, Bootstrap, Angular Material, SQL, MySQL, Git, Jira',

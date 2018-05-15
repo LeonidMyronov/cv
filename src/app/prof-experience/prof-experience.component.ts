@@ -18,7 +18,7 @@ export class ProfExperienceComponent implements OnInit {
     this.profExp = [
       {
         periods: {
-          start: new Date('03 mar 2018'),
+          start: new Date('03 feb 2018'),
           end: new Date()
         },
         title: 'Unisoft Corporation',
