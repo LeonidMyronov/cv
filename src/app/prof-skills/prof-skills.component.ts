@@ -18,15 +18,15 @@ export class ProfSkillsComponent implements OnInit {
     this.skills = [
       {
         name: 'Angular 6/5',
-        value: '95%'
+        value: '100%'
       },
       {
         name: 'ES6/ES5',
-        value: '90%'
+        value: '95%'
       },
       {
         name: 'TypeScript',
-        value: '90%'
+        value: '100%'
       },
       {
         name: 'RxJs',
@@ -42,11 +42,11 @@ export class ProfSkillsComponent implements OnInit {
       },
       {
         name: 'HTML5',
-        value: '95%'
+        value: '100%'
       },
       {
         name: 'CSS3/Sass/Scss',
-        value: '95%'
+        value: '100%'
       },
       {
         name: 'NodeJS',

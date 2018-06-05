@@ -17,19 +17,35 @@ export class EducationComponent implements OnInit {
     this.educations = [
       {
         periods: {
+          end: new Date('10 jun 2018'),
+        },
+        title: 'Reactive Programming',
+        content: 'Angular + RxJs + NgRx. Reactive Programming. Certificate',
+        imgPath: 'assets/img/rxjs-logo.png'
+      },
+      {
+        periods: {
+          end: new Date('01 may 2018'),
+        },
+        title: 'TypeScript Course',
+        content: 'Building App with Typescript, Angular, Node REST API. Certificate',
+        imgPath: 'assets/img/typescript-logo.png'
+      },
+      {
+        periods: {
           end: new Date('01 feb 2018'),
         },
         title: 'Udemy',
-        content: 'Angular (Full App) with Angular Material, Angularfire and NgRx',
-        imgPath: 'https://www.udemy.com/staticx/udemy/images/v5/logo-green.svg'
+        content: 'Angular (Full App) with Angular Material, Angularfire and NgRx. Certificate',
+        imgPath: 'assets/img/angular-logo.png'
       },
       {
         periods: {
           end: new Date('01 jun 2017'),
         },
         title: 'Udemy',
-        content: 'Angular 5. Full Stack Web Development',
-        imgPath: 'https://www.udemy.com/staticx/udemy/images/v5/logo-green.svg'
+        content: 'Angular 5. Full Stack Web Development. Certificate',
+        imgPath: 'assets/img/angular-logo.png'
       },
       {
         periods: {
