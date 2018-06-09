@@ -1,0 +1,20 @@
+.row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.left-side {
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.right-side {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (max-width: 767px) {
+  .row {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,10 @@
+app-time-line-cronology:not(:last-child) {
+  display: block;
+  border-bottom: 0.5px solid #eee
+}
+
+@media(max-width: 767px) {
+  .content-wrapper{
+    margin-bottom: 0;
+  }
+}

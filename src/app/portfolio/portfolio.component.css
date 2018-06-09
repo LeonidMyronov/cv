@@ -23,3 +23,13 @@ a{
 .portfolio-technologies{
     margin-bottom: 10px;
 }
+
+@media (max-width: 1200px) {
+    .portfolio-item {
+        display: block;
+    }
+    .portfolio-title {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}

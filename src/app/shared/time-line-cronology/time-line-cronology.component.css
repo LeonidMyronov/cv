@@ -1,6 +1,12 @@
 .event{
-    margin-bottom: 10px;
+    padding-bottom: 16px;
+    padding-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
 }
+
 .event > * {
     display: inline-block;
     vertical-align: top;
@@ -50,4 +56,59 @@ span{
     margin: 0 auto;
     
 
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .long-event .title {
+        order: 1;
+        margin-left: 130px;
+    }
+    .long-event .image {
+        margin-left: auto;
+    }
+    .long-event .item-title {
+        margin-top: -56px;
+        margin-left: 20px;
+    }
+    .periods {
+        width: auto
+    }
+    .title {
+        width: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        width: 440px;
+        margin-right: auto;
+    }
+    .image {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        order: 1;
+        margin-left: 20px;
+    }
+    .image {
+        margin-left: auto;
+    }
+
+    .periods {
+        width: auto;
+        line-height: 40px;
+    }
+    .long-event .periods {
+        line-height: 28px;
+    }
+    .title {
+        width: 300px;
+    }
+    .separator {
+        line-height: 40px;        
+    }
 }

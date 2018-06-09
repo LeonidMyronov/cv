@@ -1,6 +1,6 @@
-<div class="event clearfix">
+<div class="event" [ngClass]="{'long-event': event.periods.start}">
 
-  <div *ngIf="event.periods.start" class="periods pull-left">
+  <div *ngIf="event.periods.start" class="periods">
 
     {{event.periods.start | date:'MM/y' | lowercase}} - {{event.periods.end | date:'MM/y'}}
     <span class="spent-time">
@@ -8,13 +8,13 @@
         <span *ngIf="duration.months > 0">{{duration.months}} month(s)</span>
     </span>
   </div>
-  <div *ngIf="!event.periods.start" class="periods pull-left">
+  <div *ngIf="!event.periods.start" class="periods">
     {{event.periods.end | date:'y'}}
   </div>
-  <div class="separator pull-left">
+  <div class="separator">
     <i class="fa fa-caret-right fa-lg"></i>
   </div>
-  <div class="title pull-left">
+  <div class="title">
     <span class="item-title">
       {{event.title}}
     </span>
@@ -22,7 +22,7 @@
       {{event.content}}
     </span>
   </div>
-  <div class="image pull-right">
+  <div class="image">
     <img [src]="event.imgPath">
   </div>
 
