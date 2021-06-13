@@ -17,11 +17,11 @@ export class ProfSkillsComponent implements OnInit {
       }
     this.skills = [
       {
-        name: 'Angular 6/5',
-        value: '100%'
+        name: 'Angular',
+        value: '95%'
       },
       {
-        name: 'ES6/ES5',
+        name: 'ES7/ES6',
         value: '95%'
       },
       {
@@ -30,7 +30,11 @@ export class ProfSkillsComponent implements OnInit {
       },
       {
         name: 'RxJs',
-        value: '85%'
+        value: '90%'
+      },
+      {
+        name: 'NGXS | NGRX',
+        value: '100%'
       },
       {
         name: 'AngularJS',
@@ -49,20 +53,24 @@ export class ProfSkillsComponent implements OnInit {
         value: '100%'
       },
       {
+        name: 'Kendo UI',
+        value: '100%'
+      },
+      {
+        name: 'Angular Material',
+        value: '100%'
+      },
+      {
         name: 'NodeJS',
+        value: '60%'
+      },
+      {
+        name: 'MondoDB',
         value: '50%'
       },
       {
-        name: 'SQL',
-        value: '75%'
-      },
-      {
-        name: 'PHP',
-        value: '65%'
-      },
-      {
-        name: 'Python',
-        value: '45%'
+        name: 'AWS',
+        value: '55%'
       },
     ];
   }

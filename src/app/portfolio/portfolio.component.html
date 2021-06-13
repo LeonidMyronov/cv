@@ -3,6 +3,7 @@
     <div class="portfolio-container">
         <div *ngFor="let portfolio of portfolios" class="portfolio-item">
             <div class="portfolio-title">
+                <div class="portfolio-company">{{portfolio.company}}</div>
                 <a [href]="portfolio.url">{{ portfolio.name }}</a>
             </div>
             <div class="portfolio-description">
