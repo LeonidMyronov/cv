@@ -1,0 +1,9 @@
+<div class="section-title" [ngClass]="section.name">
+  <img *ngIf="section.img" [src]="section.img" alt="">
+  <div *ngIf="!section.img" class="custom-img">
+        <img [src]="section.icon"  alt="">
+  </div>
+  <div class="section-name">
+    {{section.name}}
+  </div>
+</div>

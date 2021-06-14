@@ -1,0 +1,15 @@
+
+<div class="content-wrapper">
+    <div class="languages-container">
+        <div *ngFor="let lang of languages" class="lang-item">
+            <div class="img-wrapper">
+                <img [src]="lang.imgPath" alt="" [ngClass]="lang.name">
+            </div>
+            <span>{{ lang.level }}</span>
+        </div>
+    </div>
+    <div class="ln-info">
+        <img [src]="ln.imgPath" alt="">
+        <a [href]="ln.url">{{ ln.url }}</a>
+    </div>
+</div>

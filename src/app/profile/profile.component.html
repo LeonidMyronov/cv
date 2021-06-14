@@ -1,0 +1,38 @@
+<div class="profile">
+  <div class="person">
+    <h1>{{ profileData.name }}</h1>
+    <h2>{{ profileData.position }}</h2>
+
+  </div>
+  <div class="image">
+    <div class="img-wrapper center-block img-circle">
+      <img class="img-responsive" [src]="profileData.imgPath" alt="{{ profileData.name }}">
+    </div>
+  </div>
+  <div class="details">
+    <app-section-title [section]="section"></app-section-title>
+
+    <div class="section-content">
+      <ul>
+        <!-- <li>
+          <i class="list-element-header fa fa fa-birthday-cake"></i>{{ profileData.birth | date }}
+          
+        </li> -->
+        <!-- <li>
+          <i class="list-element-header fa fa-phone"></i>{{ profileData.phone }}
+
+        </li> -->
+        <li>
+          <a href="mailto:{{ profileData.mail }}"><i class="fa fa-envelope list-element-header"></i></a>
+         	{{ profileData.mail }}
+        </li>
+        <li>
+          <i class="fa fa-skype list-element-header"></i> {{ profileData.skype }}
+
+        </li>
+      </ul>
+    </div>
+
+
+  </div>
+</div>

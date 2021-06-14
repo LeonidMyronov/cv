@@ -1,0 +1,12 @@
+<app-section-title [section]="section"></app-section-title>
+
+<div class="content-wrapper">
+    <div *ngFor="let skill of skills" class="skill-item">
+        <span class="skill-name">{{ skill.name }}</span>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" [ngStyle]="{width: skill.value}">
+            </div>
+        </div>
+    </div>
+
+</div>
